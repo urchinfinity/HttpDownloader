@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/linearLayout" >
+
+        <GridView
+            tools:listitem="@android:layout/simple_list_item_1"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/images"
+            android:numColumns="3"
+            android:stretchMode="columnWidth"
+            android:horizontalSpacing="5dp"
+            android:gravity="center_vertical|center_horizontal"
+            android:verticalSpacing="5dp"
+            android:layout_marginTop="5dp" />
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:id="@+id/faller1"
+        android:src="@drawable/faller"
+        android:adjustViewBounds="false"
+        android:layout_marginTop="-70dp" />
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:id="@+id/faller2"
+        android:src="@drawable/faller"
+        android:adjustViewBounds="false"
+        android:layout_marginTop="-70dp" />
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:id="@+id/faller3"
+        android:src="@drawable/faller"
+        android:adjustViewBounds="false"
+        android:layout_marginTop="-70dp" />
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/faller4"
+        android:src="@drawable/faller"
+        android:adjustViewBounds="false"
+        android:layout_marginTop="-70dp" />
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/faller5"
+        android:src="@drawable/faller"
+        android:adjustViewBounds="false"
+        android:layout_marginTop="-70dp" />
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/faller6"
+        android:src="@drawable/faller"
+        android:adjustViewBounds="false"
+        android:layout_marginTop="-70dp" />
+
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:id="@+id/faller7"
+        android:src="@drawable/faller"
+        android:adjustViewBounds="false"
+        android:layout_marginTop="-70dp" />
+
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:id="@+id/faller8"
+        android:src="@drawable/faller"
+        android:adjustViewBounds="false"
+        android:layout_marginTop="-70dp" />
+
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:id="@+id/faller9"
+        android:src="@drawable/faller"
+        android:adjustViewBounds="false"
+        android:layout_marginTop="-70dp" />
+
+    <ImageView
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:id="@+id/faller10"
+        android:src="@drawable/faller"
+        android:adjustViewBounds="false"
+        android:layout_marginTop="-70dp" />
+</RelativeLayout>

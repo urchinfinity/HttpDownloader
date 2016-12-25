@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="task1" type="id"/>
+    <item name="task2" type="id"/>
+    <item name="task3" type="id"/>
+    <item name="task4" type="id"/>
+    <item name="task5" type="id"/>
+    <item name="task6" type="id"/>
+    <item name="task7" type="id"/>
+    <item name="task8" type="id"/>
+    <item name="task9" type="id"/>
+    <item name="task10" type="id"/>
+</resources>
